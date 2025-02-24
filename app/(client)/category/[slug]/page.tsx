@@ -4,9 +4,13 @@ import Title from "@/components/Title";
 import { getAllCategories } from "@/sanity/helpers/queries";
 import React from "react";
 
-const CategoryPage = async ({ params }: { params: { slug: string } }) => {
+interface CategoryPageProps {
+  params: { slug: string }; // ✅ Fixed type (removed Promise)
+}
+
+const CategoryPage = async ({ params }: CategoryPageProps) => {
   const { slug } = params;
-  
+
   try {
     const categories = await getAllCategories();
 
