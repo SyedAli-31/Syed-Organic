@@ -6,7 +6,7 @@ interface Props {
     product: Product;
     className?: string;
   }
-const QuantityButtons = ({ product, className }: Props) => {
+const QuantityButtons = ({ }: Props) => {
     const itemCount=4
   return (
     <div>

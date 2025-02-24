@@ -9,7 +9,7 @@ export const headerData = [
   ];
   
 export const productType = [
-  { title: "Tshirt", value: "tshirt" },
+  { title: "Beauty", value: "beauty" },
   { title: "Jacket", value: "jacket" },
   { title: "Pants", value: "pants" },
   { title: "Hoodie", value: "hoodie" },

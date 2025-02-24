@@ -82,7 +82,7 @@ export const prodType= defineField({
             type: "string",
             options: {
               list: [
-                { title: "Sandalwood", value: "sandalwood" },
+                { title: "Beauty", value: "beauty" },
                 { title: "Charcoal", value: "charcoal" },
                 { title: "Aloevera", value: "Aloevera" },
                 { title: "Rice", value: "rice" },

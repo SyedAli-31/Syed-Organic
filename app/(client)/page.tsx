@@ -1,6 +1,6 @@
 import Container from "@/components/Container";
 import HeroCarousel from "@/components/hero-carousel";
-import HomeBanner from "@/components/HomeBanner";
+
 import ProductGrid from "@/components/ProductGrid";
 
 
